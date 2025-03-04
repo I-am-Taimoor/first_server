@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 # Use main development branch of Rails
 gem "rails", github: "rails/rails", branch: "main"
+gem "rack-cors"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use sqlite3 as the database for Active Record
